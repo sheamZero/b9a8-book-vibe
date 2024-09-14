@@ -4,7 +4,6 @@ import { MdOutlineContactPage } from "react-icons/md";
 import { Link } from "react-router-dom";
 
 
-
 const WishlistBook = ({ book }) => {
     const { image, tags, rating, author, category, bookId, totalPages, publisher, yearOfPublishing } = book;
 
