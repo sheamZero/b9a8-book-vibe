@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 
 
 const ReadBook = ({ book }) => {
-    const { image, tags, bookName, rating, author, category, review, totalPages, publisher, yearOfPublishing } = book;
-
+    const { image, tags, rating, author, category, bookId, totalPages, publisher, yearOfPublishing } = book;
+    console.log(bookId);
 
 
     return (
@@ -48,7 +48,7 @@ const ReadBook = ({ book }) => {
                     <div className="">
                         <Link className="text-[#328EFF] bg-[#328EFF26] px-4 py-2 text-sm rounded-2xl" >Category: {category}</Link>
                         <Link className="bg-[#FFAC3326] text-[#FFAC33] px-4 py-2 mx-10 text-sm rounded-2xl">Rating: {rating}</Link>
-                        <Link className="bg-green-500 text-slate-100 px-4 py-2 text-sm rounded-2xl">View Details</Link>
+                        <Link to={`/bookDetails/${bookId}`} className="bg-green-500 text-slate-100 px-4 py-2 text-sm rounded-2xl">View Details</Link>
 
                     </div>
 
