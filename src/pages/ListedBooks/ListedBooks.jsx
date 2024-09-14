@@ -6,9 +6,6 @@ const ListedBooks = () => {
 
     const [tabs, setTabs] = useState(0);
 
-    console.log(tabs);
-
-
 
 
     return (

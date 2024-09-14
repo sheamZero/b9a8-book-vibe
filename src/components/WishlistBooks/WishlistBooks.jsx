@@ -1,10 +1,18 @@
 import React from 'react';
+import { getWhislistBooks } from '../../utilities';
+import WishlistBook from '../WishlistBook/WishlistBook';
 
 const WishlistBooks = () => {
+    const wishlistBooks = getWhislistBooks();
+    // console.log(readBooks);
+
+
     return (
-        <div>
-            Whishlist
-        </div>
+        <>
+            {
+                wishlistBooks.map(book => <WishlistBook book={book} key={book.bookId}></WishlistBook>)
+            }
+        </>
     );
 };
 

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 
 
-const ReadBook = ({ book }) => {
+const WishlistBook = ({ book }) => {
     const { image, tags, rating, author, category, bookId, totalPages, publisher, yearOfPublishing } = book;
 
 
@@ -58,4 +58,4 @@ const ReadBook = ({ book }) => {
     );
 };
 
-export default ReadBook;
+export default WishlistBook;

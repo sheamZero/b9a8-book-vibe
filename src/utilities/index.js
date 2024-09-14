@@ -65,4 +65,4 @@ const saveWhislistBooks = (book) => {
 }
 
 
-export { saveBook, getBooks, saveWhislistBooks };
+export { saveBook, getBooks, saveWhislistBooks, getWhislistBooks };
