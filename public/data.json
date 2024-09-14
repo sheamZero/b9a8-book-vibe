@@ -1,0 +1,80 @@
+[
+    {
+        "bookId": "1",
+        "bookName": "The Silent Patient",
+        "author": "Alex Michaelides",
+        "image": "https://i.ibb.co.com/27wJBVY/img5.jpg",
+        "review": "A gripping psychological thriller with a shocking twist. The narrative is captivating, and the character development is exceptional.",
+        "totalPages": 336,
+        "rating": 4.5,
+        "category": "Thriller",
+        "tags": ["Suspense", "Psychological"],
+        "publisher": "Celadon Books",
+        "yearOfPublishing": 2019
+    },
+    {
+        "bookId": "2",
+        "bookName": "Where the Crawdads Sing",
+        "author": "Delia Owens",
+        "image": "https://i.ibb.co.com/cTgtyMh/img2.webp",
+        "review": "A beautifully written novel that blends a coming-of-age story with a mysterious murder investigation. The natural setting is vividly described and integral to the story.",
+        "totalPages": 384,
+        "rating": 4.7,
+        "category": "Fiction",
+        "tags": ["Mystery", "Drama"],
+        "publisher": "G.P. Putnam's Sons",
+        "yearOfPublishing": 2018
+    },
+    {
+        "bookId": "3",
+        "bookName": "Educated",
+        "author": "Tara Westover",
+        "image": "https://i.ibb.co.com/tq4TWm9/img1.jpg",
+        "review": "An inspiring memoir of a woman who overcomes immense obstacles to pursue education. Tara Westover's story is both harrowing and uplifting.",
+        "totalPages": 334,
+        "rating": 4.6,
+        "category": "Memoir",
+        "tags": ["Autobiography", "Inspirational"],
+        "publisher": "Random House",
+        "yearOfPublishing": 2018
+    },
+    {
+        "bookId": "4",
+        "bookName": "The Midnight Library",
+        "author": "Matt Haig",
+        "image": "https://i.ibb.co.com/7gSRhjn/img4.jpg",
+        "review": "A thought-provoking novel about life, regrets, and the choices we make. The concept of the midnight library is intriguing and well-explored.",
+        "totalPages": 304,
+        "rating": 4.4,
+        "category": "Fantasy",
+        "tags": ["Philosophical", "Fiction"],
+        "publisher": "Viking",
+        "yearOfPublishing": 2020
+    },
+    {
+        "bookId": "5",
+        "bookName": "Normal People",
+        "author": "Sally Rooney",
+        "image": "https://i.ibb.co.com/QXcd67w/img3.webp",
+        "review": "A compelling exploration of relationships and personal growth. Sally Rooney's writing is sharp and insightful, capturing the nuances of human connection.",
+        "totalPages": 266,
+        "rating": 4.3,
+        "category": "Contemporary",
+        "tags": ["Romance", "Drama"],
+        "publisher": "Faber & Faber",
+        "yearOfPublishing": 2018
+    },
+    {
+        "bookId": "6",
+        "bookName": "Dune",
+        "author": "Frank Herbert",
+        "image": "https://i.ibb.co.com/tq4TWm9/img1.jpg",
+        "review": "A classic science fiction epic with an intricate plot and richly detailed world-building. Frank Herbert's Dune is a cornerstone of the genre.",
+        "totalPages": 412,
+        "rating": 4.8,
+        "category": "Science Fiction",
+        "tags": ["Epic", "Adventure"],
+        "publisher": "Chilton Books",
+        "yearOfPublishing": 1965
+    }
+]
